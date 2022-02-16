@@ -80,7 +80,6 @@ class TileInfo:
 
         return {
             "title": "Rendered preview",
-            "rel": "preview",
             "href": href,
             "roles": ["overview"],
             "type": pystac.MediaType.PNG,
